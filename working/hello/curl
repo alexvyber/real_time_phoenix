@@ -1,0 +1,87 @@
+curl 'http://l:4000/' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Cache-Control: max-age=0' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: _pento_key=SFMyNTY.g3QAAAADbQAAAAtfY3NyZl90b2tlbm0AAAAYVG8tSFdRdUcwbkczdmhNUk0yN1F0UUt4bQAAAA5saXZlX3NvY2tldF9pZG0AAAA7dXNlcnNfc2Vzc2lvbnM6LWY2TVlqWGRjWTlHSjNFbnZaRkFvR3Zicm9nOWI3UW5NSFl6VXhCRVRERT1tAAAACnVzZXJfdG9rZW5tAAAAIPn-jGI13XGPRidxJ72RQKBr266IPW-0JzB2M1MQREwx.xz0nH9MFc7JJJL_Fp6pRXs8K7q_OxYJ88SLjAIT7Ksw; _hello_key=SFMyNTY.g3QAAAABbQAAAAtfY3NyZl90b2tlbm0AAAAYV3ZGSTVzSHdzc0hsLW1zdGdxMWZ1RXV5.5FqvlRw60XuvK-rTxQJmw-RTkZxORJts1egba7FxDLo' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36' \
+  --compressed \
+  --insecure ;
+curl 'http://l:4000/assets/app.css' \
+  -H 'Accept: text/css,*/*;q=0.1' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: _pento_key=SFMyNTY.g3QAAAADbQAAAAtfY3NyZl90b2tlbm0AAAAYVG8tSFdRdUcwbkczdmhNUk0yN1F0UUt4bQAAAA5saXZlX3NvY2tldF9pZG0AAAA7dXNlcnNfc2Vzc2lvbnM6LWY2TVlqWGRjWTlHSjNFbnZaRkFvR3Zicm9nOWI3UW5NSFl6VXhCRVRERT1tAAAACnVzZXJfdG9rZW5tAAAAIPn-jGI13XGPRidxJ72RQKBr266IPW-0JzB2M1MQREwx.xz0nH9MFc7JJJL_Fp6pRXs8K7q_OxYJ88SLjAIT7Ksw; _hello_key=SFMyNTY.g3QAAAABbQAAAAtfY3NyZl90b2tlbm0AAAAYV3ZGSTVzSHdzc0hsLW1zdGdxMWZ1RXV5.5FqvlRw60XuvK-rTxQJmw-RTkZxORJts1egba7FxDLo' \
+  -H 'If-None-Match: "7B29B8F"' \
+  -H 'Referer: http://l:4000/' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36' \
+  --compressed \
+  --insecure ;
+curl 'http://l:4000/assets/app.js' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: _pento_key=SFMyNTY.g3QAAAADbQAAAAtfY3NyZl90b2tlbm0AAAAYVG8tSFdRdUcwbkczdmhNUk0yN1F0UUt4bQAAAA5saXZlX3NvY2tldF9pZG0AAAA7dXNlcnNfc2Vzc2lvbnM6LWY2TVlqWGRjWTlHSjNFbnZaRkFvR3Zicm9nOWI3UW5NSFl6VXhCRVRERT1tAAAACnVzZXJfdG9rZW5tAAAAIPn-jGI13XGPRidxJ72RQKBr266IPW-0JzB2M1MQREwx.xz0nH9MFc7JJJL_Fp6pRXs8K7q_OxYJ88SLjAIT7Ksw; _hello_key=SFMyNTY.g3QAAAABbQAAAAtfY3NyZl90b2tlbm0AAAAYV3ZGSTVzSHdzc0hsLW1zdGdxMWZ1RXV5.5FqvlRw60XuvK-rTxQJmw-RTkZxORJts1egba7FxDLo' \
+  -H 'If-None-Match: "20E3740"' \
+  -H 'Referer: http://l:4000/' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36' \
+  --compressed \
+  --insecure ;
+curl 'http://l:4000/images/phoenix.png' \
+  -H 'Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: _pento_key=SFMyNTY.g3QAAAADbQAAAAtfY3NyZl90b2tlbm0AAAAYVG8tSFdRdUcwbkczdmhNUk0yN1F0UUt4bQAAAA5saXZlX3NvY2tldF9pZG0AAAA7dXNlcnNfc2Vzc2lvbnM6LWY2TVlqWGRjWTlHSjNFbnZaRkFvR3Zicm9nOWI3UW5NSFl6VXhCRVRERT1tAAAACnVzZXJfdG9rZW5tAAAAIPn-jGI13XGPRidxJ72RQKBr266IPW-0JzB2M1MQREwx.xz0nH9MFc7JJJL_Fp6pRXs8K7q_OxYJ88SLjAIT7Ksw; _hello_key=SFMyNTY.g3QAAAABbQAAAAtfY3NyZl90b2tlbm0AAAAYV3ZGSTVzSHdzc0hsLW1zdGdxMWZ1RXV5.5FqvlRw60XuvK-rTxQJmw-RTkZxORJts1egba7FxDLo' \
+  -H 'If-None-Match: "7F87BE8"' \
+  -H 'Referer: http://l:4000/' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36' \
+  --compressed \
+  --insecure ;
+curl 'http://l:4000/phoenix/live_reload/frame' \
+  -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: _pento_key=SFMyNTY.g3QAAAADbQAAAAtfY3NyZl90b2tlbm0AAAAYVG8tSFdRdUcwbkczdmhNUk0yN1F0UUt4bQAAAA5saXZlX3NvY2tldF9pZG0AAAA7dXNlcnNfc2Vzc2lvbnM6LWY2TVlqWGRjWTlHSjNFbnZaRkFvR3Zicm9nOWI3UW5NSFl6VXhCRVRERT1tAAAACnVzZXJfdG9rZW5tAAAAIPn-jGI13XGPRidxJ72RQKBr266IPW-0JzB2M1MQREwx.xz0nH9MFc7JJJL_Fp6pRXs8K7q_OxYJ88SLjAIT7Ksw; _hello_key=SFMyNTY.g3QAAAABbQAAAAtfY3NyZl90b2tlbm0AAAAYV3ZGSTVzSHdzc0hsLW1zdGdxMWZ1RXV5.5FqvlRw60XuvK-rTxQJmw-RTkZxORJts1egba7FxDLo' \
+  -H 'Referer: http://l:4000/' \
+  -H 'Upgrade-Insecure-Requests: 1' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36' \
+  --compressed \
+  --insecure ;
+curl 'ws://l:4000/phoenix/live_reload/socket/websocket?vsn=2.0.0' \
+  -H 'Pragma: no-cache' \
+  -H 'Origin: http://l:4000' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Sec-WebSocket-Key: 16nXbvrsdS/0HhTDhMqZ7g==' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36' \
+  -H 'Upgrade: websocket' \
+  -H 'Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Cookie: _pento_key=SFMyNTY.g3QAAAADbQAAAAtfY3NyZl90b2tlbm0AAAAYVG8tSFdRdUcwbkczdmhNUk0yN1F0UUt4bQAAAA5saXZlX3NvY2tldF9pZG0AAAA7dXNlcnNfc2Vzc2lvbnM6LWY2TVlqWGRjWTlHSjNFbnZaRkFvR3Zicm9nOWI3UW5NSFl6VXhCRVRERT1tAAAACnVzZXJfdG9rZW5tAAAAIPn-jGI13XGPRidxJ72RQKBr266IPW-0JzB2M1MQREwx.xz0nH9MFc7JJJL_Fp6pRXs8K7q_OxYJ88SLjAIT7Ksw; _hello_key=SFMyNTY.g3QAAAABbQAAAAtfY3NyZl90b2tlbm0AAAAYV3ZGSTVzSHdzc0hsLW1zdGdxMWZ1RXV5.5FqvlRw60XuvK-rTxQJmw-RTkZxORJts1egba7FxDLo' \
+  -H 'Connection: Upgrade' \
+  -H 'Sec-WebSocket-Version: 13' \
+  --compressed ;
+curl 'http://l:4000/favicon.ico' \
+  -H 'Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8' \
+  -H 'Accept-Language: en-US,en;q=0.9' \
+  -H 'Connection: keep-alive' \
+  -H 'Cookie: _pento_key=SFMyNTY.g3QAAAADbQAAAAtfY3NyZl90b2tlbm0AAAAYVG8tSFdRdUcwbkczdmhNUk0yN1F0UUt4bQAAAA5saXZlX3NvY2tldF9pZG0AAAA7dXNlcnNfc2Vzc2lvbnM6LWY2TVlqWGRjWTlHSjNFbnZaRkFvR3Zicm9nOWI3UW5NSFl6VXhCRVRERT1tAAAACnVzZXJfdG9rZW5tAAAAIPn-jGI13XGPRidxJ72RQKBr266IPW-0JzB2M1MQREwx.xz0nH9MFc7JJJL_Fp6pRXs8K7q_OxYJ88SLjAIT7Ksw; _hello_key=SFMyNTY.g3QAAAABbQAAAAtfY3NyZl90b2tlbm0AAAAYV3ZGSTVzSHdzc0hsLW1zdGdxMWZ1RXV5.5FqvlRw60XuvK-rTxQJmw-RTkZxORJts1egba7FxDLo' \
+  -H 'If-None-Match: "D15C55"' \
+  -H 'Referer: http://l:4000/' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36' \
+  --compressed \
+  --insecure ;
+curl 'chrome-extension://gppongmhjkpfnbhagpmjfkannfbllamg/js/js.js' \
+  -H 'Referer: http://l:4000/' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36' \
+  --compressed ;
+curl 'chrome-extension://gppongmhjkpfnbhagpmjfkannfbllamg/js/dom.js' \
+  -H 'Referer: http://l:4000/' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36' \
+  --compressed ;
+curl 'chrome-extension://gppongmhjkpfnbhagpmjfkannfbllamg/js/js.js' \
+  -H 'Referer: http://l:4000/' \
+  -H 'If-None-Match: "wXu848a2b5XmnM9y+5fyKdS+9AM="' \
+  -H 'If-Modified-Since: Thu, 21 Jul 2022 10:26:26 GMT' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.114 Safari/537.36' \
+  --compressed
